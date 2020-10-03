@@ -1,0 +1,113 @@
+body {background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.diA2hdjpfzwJD9Qw4HzYsQHaEK%26pid%3DApi&f=1);
+      background-size: cover;
+      margin-left: 0px;
+      
+
+}
+
+h1   { 
+      background-color: rgb(90, 168, 107); 
+      text-align: center;
+      font-family: 'Shadows Into Light', cursive;
+      color: brown;
+      font-size: 60px;
+      border-radius: 15px;
+      width: 500px;
+      margin: auto;
+      opacity: 80%;
+      background: -webkit-linear-gradient(top, hsl(106, 100%, 29%), hsl(0, 0%, 100%), hsl(115, 38%, 59%));
+     
+}
+
+nav {
+    text-align: center;
+    border: solid;
+    background-color: hsl(88, 49%, 49%);
+    border-radius: 11px;
+    opacity: 78%;
+ 
+
+}
+
+nav li { 
+        display: inline;
+        color: black;
+        font-family: 'Shadows Into Light', cursive;
+      }
+main { 
+     
+     opacity: 80%;
+     width: 100%;
+     display: inline-flex;
+     
+    }
+
+main section {
+              columns: 2; 
+              margin-top: 30px;
+              padding-top: 30px;
+              padding-bottom: 20px;
+              padding-left: 20px;
+              width: 80%;
+              opacity: 100%;
+    }
+.articulo { 
+             
+             border: solid;
+             border-radius:13px;
+             padding-left: 10px;
+             background-color: khaki;
+             opacity: 85%;
+            
+             
+
+
+    }
+
+ main section article h3 {
+         font-family: 'Shadows Into Light', cursive;
+ }   
+
+ aside {
+        background-color: #abeb86;
+        width: 20%;
+        height: 285px;
+        border: solid;
+        border-radius: 13px;
+        font-family: 'Shadows Into Light', cursive;
+        float:right;
+        padding-top: 40px;
+        margin-top: 60px;
+        margin-left: 10px;
+
+ }
+ div { background-color: #8fb633;
+       border: solid;
+       padding-left: 30px;
+       margin-bottom: 20px;
+       margin-top: 20px;
+       opacity: 75%;
+       
+       
+
+ }
+
+ div h2 {  text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+
+ }
+footer {
+        background-color: #69a04a;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        text-align: center;
+        width: 450px;
+        margin: auto;
+        border-radius: 14px;
+        opacity: 80%;
+        text-decoration: none !important;
+}
+footer ul li {
+              display: inline;
+              
+            }
