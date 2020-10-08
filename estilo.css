@@ -15,48 +15,46 @@ h1   {
       width: 650px;
       margin: auto;
       opacity: 80%;
-      background: -webkit-linear-gradient(top, hsl(106, 100%, 29%), hsl(0, 0%, 100%), hsl(115, 38%, 59%));
+      background: -webkit-linear-gradient(top, rgb(2, 82, 136), hsl(0, 0%, 100%), rgb(156, 208, 243));
       font-weight: 600;
 }
 
 nav {
     text-align: center;
-    background-color: hsl(88, 49%, 49%);
+    background-color: #5cd4b6;
     border-radius: 11px;
     opacity: 78%;
     width: 960px ;
+    height: 130px;
     margin: auto;
+
    
     }
 
-.subnav {
+.subnav  {
       
       float: left;
       overflow: hidden;
-          
+      margin-top: 20px;
+     
 }
 
-nav .subnavbtn {
-      font-size: 16px;
-      border: solid;
-      outline: none;
-      color: white;
-      padding: 14px 16px;
-      background-color: inherit;
-      font-family: inherit;
-      margin: 0;
-}.
 
-.nav:hover  .subnavbtn {
-      background-color: red;
+div .boton { text-decoration: none;
+            color: black;
+            font-size: 20px;
+            text-align: center;
+            border: solid;
+            padding-left: 20px;
+            padding-right: 20px;
+           
+
+}
+.subnav:hover .boton {
+      background-color: rgb(142, 236, 216);
     }
     
-.subnav .subnavbtn a:hover {
-
-      background-color: #070606;
-      color: black;
-    }
-
+    
 .subnav:hover .subnavcontent {
       display: block;
     } 
@@ -66,25 +64,16 @@ nav .subnavbtn {
       display: none;
       position: absolute;
       left: 0;
-      background-color: green;
+      
       padding-left: 200px;
       z-index: 1;
-      margin-top: 0px;
+      margin-top: 5px;
+      margin-left: 16%;
       width: 100%;
+      text-align: center;
        
     }
 
-.subnavcontent a {
-      float: left;
-      font-size: 16px;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-      display: block;
-      border: solid;
-     
-    }
     
 main { 
      
@@ -93,6 +82,26 @@ main {
      display: inline-flex;
      
     }
+    .subnavcontent a {
+          float: left;
+          font-size: 20px;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          display: inline;
+          border: solid;
+          border-color: #6eb4dd;
+         
+        }
+
+main div { width: 150px;
+           height: 500px ;
+           background-color: #5cd4b6;
+           margin-left: 30px;
+           border-radius: 14px;
+
+}    
 
 main section {
               columns: 1; 
@@ -108,7 +117,7 @@ main section {
              
             
              padding-left: 10px;
-             background-color: khaki;
+             background-color: hsl(157, 24%, 48%);
              opacity: 85%;
              margin-top: auto;
              
@@ -119,7 +128,7 @@ main section {
  }   
 
  aside {
-        background-color: #abeb86;
+        background-color: #5cd4b6;
         width: 20%;
         height: 285px;
         border-radius: 13px;
@@ -136,16 +145,17 @@ main section {
       
       }
 aside a { text-decoration: none;
-         color: green;    
+         color: #000000;    
               
 }
 
- div { background-color: #8fb633;
+ div { 
       
        padding-left: 30px;
        margin-bottom: 20px;
        margin-top: 20px;
-       opacity: 75%;
+       
+       margin-left:auto;
        
        
 
