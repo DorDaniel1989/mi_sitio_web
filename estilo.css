@@ -1,4 +1,4 @@
-body {background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.diA2hdjpfzwJD9Qw4HzYsQHaEK%26pid%3DApi&f=1);
+body { /*background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.diA2hdjpfzwJD9Qw4HzYsQHaEK%26pid%3DApi&f=1);*/
       background-size: cover;
       margin-left: 0px;
       
@@ -19,62 +19,43 @@ h1   {
       font-weight: 600;
 }
 
-nav {
-    text-align: center;
-    background-color: #5cd4b6;
-    border-radius: 11px;
-    opacity: 78%;
-    width: 960px ;
-    height: 130px;
-    margin: auto;
-
-   
-    }
-
-.subnav  {
-      
-      float: left;
-      overflow: hidden;
-      margin-top: 20px;
-     
-}
+.navegacion {
+            width: 1000px;
+            margin:30px auto;
+            background-color: #1d9ac0;
+            
+   }
 
 
-div .boton { text-decoration: none;
-            color: black;
-            font-size: 20px;
-            text-align: center;
-            border: solid;
-            padding-left: 20px;
-            padding-right: 20px;
-           
-
-}
-.subnav:hover .boton {
-      background-color: rgb(142, 236, 216);
-    }
-    
-    
-.subnav:hover .subnavcontent {
-      display: block;
-    } 
-
-
-.subnavcontent {
-      display: none;
-      position: absolute;
-      left: 0;
-      
-      padding-left: 200px;
-      z-index: 1;
-      margin-top: 5px;
-      margin-left: 16%;
-      width: 100%;
-      text-align: center;
+    .navegaciona ul {
+        list-style: none;
+        display: inline-block;
        
-    }
 
-    
+    }
+ul a { 
+       width: 20%;
+       font-size: 20px;
+       color: black;
+}
+.menu > li {
+      position: relative;
+      display: inline-block;
+      width: 15%;
+      text-decoration: none;
+      height: 40px;
+      padding-top: 10px ;;
+      
+}
+
+.menu > li:hover .submenu {
+      display: block;
+}
+
+.submenu {
+             display: none;
+             position: absolute;
+}
 main { 
      
      opacity: 80%;
@@ -82,26 +63,10 @@ main {
      display: inline-flex;
      
     }
-    .subnavcontent a {
-          float: left;
-          font-size: 20px;
-          color: white;
-          text-align: center;
-          padding: 14px 16px;
-          text-decoration: none;
-          display: inline;
-          border: solid;
-          border-color: #6eb4dd;
-         
-        }
+ 
+    main div {  background-color: chocolate;
 
-main div { width: 150px;
-           height: 500px ;
-           background-color: #5cd4b6;
-           margin-left: 30px;
-           border-radius: 14px;
-
-}    
+    }
 
 main section {
               columns: 1; 
