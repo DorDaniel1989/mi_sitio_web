@@ -1,6 +1,7 @@
 body { /*background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.diA2hdjpfzwJD9Qw4HzYsQHaEK%26pid%3DApi&f=1);*/
       background-size: cover;
       margin-left: 0px;
+      background-color: #bff5e3;
       
 
 }
@@ -26,8 +27,7 @@ h1   {
             
    }
 
-
-    .navegaciona ul {
+.navegaciona ul {
         list-style: none;
         display: inline-block;
        
@@ -45,16 +45,38 @@ ul a {
       text-decoration: none;
       height: 40px;
       padding-top: 10px ;;
+      text-align: center;
+      z-index: 1;
+      list-style: none;
+}
+
+
+
+.submenu > li {
+      border: solid;
+      width: 100%;
+      height: 30px;
+      background-color: #487fd8;
+      padding: 9px 8px;
+     
       
 }
 
+.menu li:hover {
+      background-color: #69a04a;
+
+}
 .menu > li:hover .submenu {
       display: block;
 }
 
 .submenu {
              display: none;
+             z-index: 1;
              position: absolute;
+             margin-top: 20px;
+            
+             list-style: none;
 }
 main { 
      
@@ -63,11 +85,25 @@ main {
      display: inline-flex;
      
     }
+
  
-    main div {  background-color: chocolate;
+    main div {  background-color: #1d9ac0;
+      width: 20%;
+      height: 100%;
+      margin-top: 70px;
+      opacity: 100%;
+      list-style: none;
+     
+     
+}
 
-    }
-
+div ul a {
+      list-style: none;
+      text-decoration: none;
+      margin-left: 20px;
+      
+      
+}
 main section {
               columns: 1; 
               margin-top: 20px;
@@ -95,7 +131,7 @@ main section {
  aside {
         background-color: #5cd4b6;
         width: 20%;
-        height: 285px;
+        height: 100%;
         border-radius: 13px;
         font-family: 'Shadows Into Light', cursive;
         float:right;
